@@ -1,3 +1,5 @@
+-- Josh was here, trying to figure out what he's doing. No dev done yet...tried to put this on Heroku but didn't work.
+
 CREATE TABLE employee (
   id uuid NOT NULL DEFAULT gen_random_uuid(),
   employeeid int NOT NULL DEFAULT(0),
