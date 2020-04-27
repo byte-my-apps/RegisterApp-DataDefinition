@@ -1,6 +1,6 @@
 -- ALTER TABLE product DROP COLUMN price;
  ALTER TABLE product
-   ADD COLUMN price bigint NOT NULL DEFAULT(0);
+   ADD COLUMN price bigint NOT NULL DEFAULT(1);
 
 -- DROP TABLE transaction;
 CREATE TABLE transaction (
